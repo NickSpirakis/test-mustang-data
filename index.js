@@ -28,7 +28,7 @@ function renderHTML(data) {
   var htmlString = "";
 
   
-  for (i = 0; i < data.length; i++) {
+  for (i = 0; i < 9; i++) {//was i < data.length instead of 9
     htmlString += "<p>" + data[i].Name + " " + data[i].Email + " " + data[i].ContactURL;
     
      urlcont.push(data[i].ContactURL)
@@ -105,7 +105,7 @@ function btns2(URL){
     if (urlcont.length < 1){
         
     
-     for (i = 0; i < data.length; i++) {
+     for (i = 0; i < 9; i++) { //was data.length instead of 9
         urlcont.push(data[i].ContactURL)
         }
     }
