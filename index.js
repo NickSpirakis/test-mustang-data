@@ -118,3 +118,5 @@ function loopy(){
         btns2(urlcont[i]);
     }
 }
+
+//updated files
